@@ -24,7 +24,7 @@ pipeline{
         }
         stage('Deploy'){
             steps {
-                bat 'java -jar \\target\\*.jar'
+                bat 'java -jar "C:\\Users\\dheeraj\\AppData\\Local\\Jenkins\\.jenkins\\workspace\\PetClicicDeclarativePipeline@2\\target\\*.jar"'
             }
         }    
         }
